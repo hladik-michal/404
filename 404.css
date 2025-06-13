@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(1, 1, 193);
+    color: antiquewhite;
+
+}
+
+.stranka{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 200px;
+}
+.text{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 1);
+}
+.obr{
+    display: flex;
+}
+
+.h1, p{
+    font-size: 1.5rem;
+}
+.noha {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+}
+@media (max-width: 748px) {
+    .stranka{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .text{
+        align-items: center;
+    }
+    .obr{
+        justify-content: center;
+        padding-top: 25px;
+    }
+    .noha{
+        margin-top: 25px;
+    }
+}

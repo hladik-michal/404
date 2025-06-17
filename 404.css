@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
 }
+html, body{
+ height: 100%;
+}
 body{
     background-color: rgb(1, 1, 193);
     color: antiquewhite;
-
-}
+    display: flex;
+    flex-direction: column;
+} 
 
 .stranka{
     display: flex;
@@ -30,11 +34,11 @@ body{
     font-size: 1.5rem;
 }
 .noha {
-    margin-top: 150px;
     display: flex;
     justify-content: center;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
+    margin-top: auto;
 }
 @media (max-width: 748px) {
     .stranka{

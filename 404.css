@@ -16,7 +16,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    margin: auto;
+    margin-block: auto;
 }
 .text{
     display: flex;
